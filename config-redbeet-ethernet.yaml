@@ -48,7 +48,7 @@ active_modules:
       charge_mode: AC
       dbg_hlc_auth_after_tstep: false
       ev_receipt_required: false
-      evse_id: DE*PNX*E123456*1
+      #evse_id: DE*PNX*E123456*1
       has_ventilation: true
       payment_enable_contract: false
       payment_enable_eim: true
@@ -113,9 +113,9 @@ active_modules:
   slac:
     config_implementation:
       main:
-        device: eth1
+        device: eth0
         evse_id: PIONIX_SAYS_HELLO
-        nid: pionix!
+        #nid: pionix!
         number_of_sounds: 10
     connections: {}
     module: EvseSlac
