@@ -84,7 +84,7 @@ active_modules:
   iso15118_charger:
     config_module:
       device: eth0
-      tls_security: allow
+      tls_security: prohibit
     connections: {}
     module: EvseV2G
     connections:
