@@ -85,6 +85,7 @@ active_modules:
     config_module:
       device: eth0
       tls_security: prohibit
+      supported_DIN70121: false
     connections: {}
     module: EvseV2G
     connections:
@@ -102,9 +103,9 @@ active_modules:
     connections: {}
   setup:
     config_module:
-      localization: true
-      setup_simulation: false
-      setup_wifi: true
+      localization: false 
+      setup_simulation: true 
+      setup_wifi: false 
     connections:
       store:
       - module_id: persistent_store
