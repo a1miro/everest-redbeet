@@ -122,7 +122,7 @@ active_modules:
   iso15118_charger:
     config_module:
       device: eth0
-      tls_security: prohibit
+      tls_security: allow
       supported_DIN70121: false
     module: EvseV2G
     connections:
